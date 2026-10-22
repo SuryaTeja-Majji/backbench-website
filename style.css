@@ -66,5 +66,8 @@ background: url('images/banner.jpg') no-repeat center center/cover;
   <h2 style="text-align:center;">Our Collection</h2>
   ...
 </div>
+html {
+  scroll-behavior: smooth;
+}
 
 
