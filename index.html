@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BackBench</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BackBench</h1>
+    <p>BackBench Engineers have different vibe</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2 style="text-align:center;">Our Collection</h2>
+    <div class="grid">
+      <!-- Product Card Example -->
+      <div class="card">
+        <img src="images/shirt1.jpg" alt="Fabric Painted Shirt">
+        <div class="card-body">
+          <h3>Hand-Painted Shirt</h3>
+          <p class="price">₹799</p>
+          <button class="btn" onclick="orderWhatsApp('Hand-Painted Shirt', '₹799')">Order on WhatsApp</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/shirt2.jpg" alt="Fabric Painted Hoodie">
+        <div class="card-body">
+          <h3>Custom Hoodie</h3>
+          <p class="price">₹1299</p>
+          <button class="btn" onclick="orderWhatsApp('Custom Hoodie', '₹1299')">Order on WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 BackBench. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
